@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Forever Beauty Barbershop — Katy, TX</title>
+  <meta name="description" content="Forever Beauty Barbershop — sharp cuts, classic shaves, and full-service beauty in Katy, Texas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top announcement bar -->
+  <div class="topbar">
+    <span>Walk-ins welcome · Open 7 days · (832) 674-4909</span>
+  </div>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Forever Beauty Barbershop">
+        <span class="logo-mark" aria-hidden="true">FB</span>
+        <span class="logo-text">
+          <span class="logo-line-1">Forever Beauty</span>
+          <span class="logo-line-2">Barbershop · Est. Katy, TX</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#visit">Visit</a>
+      </nav>
+
+      <a href="tel:+18326744909" class="btn btn-primary nav-cta">Book Now</a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="tel:+18326744909" class="btn btn-primary">Book Now</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <p class="eyebrow">Katy · Texas</p>
+        <h1 class="hero-title">
+          Where every cut is a <em>signature</em>.
+        </h1>
+        <p class="hero-sub">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+        <div class="hero-cta">
+          <a href="tel:+18326744909" class="btn btn-primary">Book a chair</a>
+          <a href="#services" class="btn btn-ghost">View services →</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="hero-meta-label">Open today</span>
+            <span class="hero-meta-value" id="todayHours">10:00 AM – 7:00 PM</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div>
+            <span class="hero-meta-label">Walk-ins</span>
+            <span class="hero-meta-value">Welcome</span>
+          </div>
+          <div class="hero-meta-divider"></div>
+          <div>
+            <span class="hero-meta-label">Phone</span>
+            <a href="tel:+18326744909" class="hero-meta-value link">(832) 674-4909</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>Skin Fades</span><span>·</span>
+        <span>Hot-Towel Shaves</span><span>·</span>
+        <span>Beard Sculpting</span><span>·</span>
+        <span>Color &amp; Highlights</span><span>·</span>
+        <span>Kids Cuts</span><span>·</span>
+        <span>Line-Ups</span><span>·</span>
+        <span>Skin Fades</span><span>·</span>
+        <span>Hot-Towel Shaves</span><span>·</span>
+        <span>Beard Sculpting</span><span>·</span>
+        <span>Color &amp; Highlights</span><span>·</span>
+        <span>Kids Cuts</span><span>·</span>
+        <span>Line-Ups</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section id="services" class="section section-services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Services</p>
+          <h2 class="section-title">Lorem ipsum <em>dolor</em>.</h2>
+          <p class="section-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <!-- Featured combos -->
+        <div class="combo-strip">
+          <article class="combo-card">
+            <p class="combo-tag">The Combo</p>
+            <h3 class="combo-title">Lorem Ipsum</h3>
+            <p class="combo-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod.</p>
+            <p class="combo-price">$— · 60 min</p>
+          </article>
+          <article class="combo-card combo-card-feature">
+            <p class="combo-tag">Most Booked</p>
+            <h3 class="combo-title">Lorem Ipsum</h3>
+            <p class="combo-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p>
+            <p class="combo-price">$— · 75 min</p>
+          </article>
+          <article class="combo-card">
+            <p class="combo-tag">The Quick</p>
+            <h3 class="combo-title">Lorem Ipsum</h3>
+            <p class="combo-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+            <p class="combo-price">$— · 30 min</p>
+          </article>
+        </div>
+
+        <!-- Printed menu -->
+        <div class="menu">
+          <div class="menu-col">
+            <h3 class="menu-cat"><span>I.</span> Hair</h3>
+            <ul class="menu-list">
+              <li class="menu-row">
+                <span class="menu-name">Lorem ipsum</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">30 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Lorem ipsum dolor</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">45 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Consectetur adipiscing</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">30 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Sed do eiusmod</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">20 min</span><span class="menu-price">$—</span></span>
+              </li>
+            </ul>
+
+            <h3 class="menu-cat"><span>II.</span> Beard</h3>
+            <ul class="menu-list">
+              <li class="menu-row">
+                <span class="menu-name">Lorem ipsum</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">25 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Tempor incididunt</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">15 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Ut labore et dolore</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">30 min</span><span class="menu-price">$—</span></span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="menu-col">
+            <h3 class="menu-cat"><span>III.</span> Color &amp; Style</h3>
+            <ul class="menu-list">
+              <li class="menu-row">
+                <span class="menu-name">Lorem ipsum</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">90 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Magna aliqua</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">120 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Ut enim ad minim</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">60 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Veniam quis nostrud</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">45 min</span><span class="menu-price">$—</span></span>
+              </li>
+            </ul>
+
+            <h3 class="menu-cat"><span>IV.</span> Kids</h3>
+            <ul class="menu-list">
+              <li class="menu-row">
+                <span class="menu-name">Lorem ipsum</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">25 min</span><span class="menu-price">$—</span></span>
+              </li>
+              <li class="menu-row">
+                <span class="menu-name">Exercitation ullamco</span>
+                <span class="menu-leader" aria-hidden="true"></span>
+                <span class="menu-meta"><span class="menu-dur">20 min</span><span class="menu-price">$—</span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="services-footnote">Lorem ipsum dolor sit amet — call <a href="tel:+18326744909">(832) 674-4909</a> for details.</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-about">
+      <div class="container about-grid">
+        <div class="about-image" aria-hidden="true">
+          <div class="about-image-inner"></div>
+          <div class="about-badge">
+            <span class="about-badge-num">—</span>
+            <span class="about-badge-label">Lorem ipsum dolor sit amet</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">About</p>
+          <h2 class="section-title">Lorem <em>ipsum</em> dolor sit amet.</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+          <ul class="about-list">
+            <li>Lorem ipsum dolor</li>
+            <li>Consectetur adipiscing</li>
+            <li>Sed do eiusmod</li>
+            <li>Tempor incididunt</li>
+          </ul>
+          <a href="#visit" class="btn btn-dark">Plan your visit →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-gallery">
+      <div class="container">
+        <div class="section-head section-head-row">
+          <div>
+            <p class="eyebrow">Gallery</p>
+            <h2 class="section-title">Recent <em>work</em>.</h2>
+          </div>
+          <p class="section-lead-side">A small selection of cuts, fades, and styling out of the chair this month.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item gi-1"><span>Skin fade</span></div>
+          <div class="gallery-item gi-2"><span>Beard sculpt</span></div>
+          <div class="gallery-item gi-3"><span>Classic taper</span></div>
+          <div class="gallery-item gi-4"><span>Color &amp; gloss</span></div>
+          <div class="gallery-item gi-5"><span>Line-up</span></div>
+          <div class="gallery-item gi-6"><span>The shop</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VISIT / MAP -->
+    <section id="visit" class="section-visit">
+      <div class="visit-grid">
+        <!-- Map -->
+        <div class="map-wrap">
+          <iframe
+            class="map-frame"
+            title="Forever Beauty Barbershop on Google Maps"
+            src="https://maps.google.com/maps?q=6841+N+Fry+Rd+Ste+400+Katy+TX+77449&t=m&z=15&output=embed&iwloc=near"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+
+        <!-- Info column -->
+        <div class="visit-info">
+          <p class="eyebrow">Visit Us</p>
+          <h2 class="visit-title">Stop by the <em>shop</em>.</h2>
+          <p class="visit-lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" stroke-linecap="round" stroke-linejoin="round"/><path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="info-label">Address</p>
+              <p class="info-value">6841 N Fry Rd, Suite 400</p>
+              <p class="info-sub">Katy, TX 77449</p>
+              <a class="info-link" href="https://maps.google.com/?q=6841+N+Fry+Rd+Ste+400+Katy+TX+77449" target="_blank" rel="noopener">Get directions →</a>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11 11 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="info-label">Phone</p>
+              <a class="info-value link" href="tel:+18326744909">(832) 674-4909</a>
+              <p class="info-sub">Call for an appointment</p>
+            </div>
+          </div>
+
+          <div class="info-row">
+            <div class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <p class="info-label">Hours</p>
+              <table class="hours">
+                <tr><td>Mon – Fri</td><td>10:00 AM – 7:00 PM</td></tr>
+                <tr><td>Saturday</td><td>10:00 AM – 6:00 PM</td></tr>
+                <tr><td>Sunday</td><td>10:00 AM – 5:00 PM</td></tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="visit-cta">
+            <a href="tel:+18326744909" class="btn btn-dark">Call to book</a>
+            <a href="https://maps.google.com/?q=6841+N+Fry+Rd+Ste+400+Katy+TX+77449" target="_blank" rel="noopener" class="btn btn-ghost">Open in Maps ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark logo-mark-light" aria-hidden="true">FB</span>
+        <p class="footer-name">Forever Beauty Barbershop</p>
+        <p class="footer-tag">Lorem ipsum dolor sit amet. Katy, TX.</p>
+      </div>
+
+      <div class="footer-cols">
+        <div>
+          <p class="footer-heading">Visit</p>
+          <p>6841 N Fry Rd, Ste 400</p>
+          <p>Katy, TX 77449</p>
+        </div>
+        <div>
+          <p class="footer-heading">Contact</p>
+          <p><a href="tel:+18326744909">(832) 674-4909</a></p>
+        </div>
+        <div>
+          <p class="footer-heading">Follow</p>
+          <p><a href="#">Instagram</a></p>
+          <p><a href="#">Facebook</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <span>© <span id="year">2026</span> Forever Beauty Barbershop. All rights reserved.</span>
+        <span class="logo-placeholder-note">Logo is a placeholder — pending client artwork.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
